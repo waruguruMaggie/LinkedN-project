@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "839145207114",
+    "project_id": "linked-in-mock",
+    "storage_bucket": "linked-in-mock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839145207114:android:667a0c65294a411cb2bdb3",
+        "android_client_info": {
+          "package_name": "com.symon.linkedn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJz-YpiuS6-fPJjsUw0CJPB3EE46BNsME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

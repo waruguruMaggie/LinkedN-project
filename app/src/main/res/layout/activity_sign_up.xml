@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_no_line"
+        android:textSize="30sp"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/sign_up_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="5dp"
+        android:background="@drawable/input_border"
+        android:hint="@string/enterName"/>
+
+    <EditText
+        android:id="@+id/sign_up_email_input"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:paddingStart="5dp"
+        android:background="@drawable/input_border"
+        android:hint="@string/enterEmail"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:hint="@string/gender_select"
+        />
+    <EditText
+        android:id="@+id/password_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enterPasswordConfirm"
+        android:background="@drawable/input_border"
+        android:paddingStart="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/password_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enterPasswordConfirm"
+        android:background="@drawable/input_border"
+        android:paddingStart="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/sign_up_no_line"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/blue_background_button"/>
+</LinearLayout>
+

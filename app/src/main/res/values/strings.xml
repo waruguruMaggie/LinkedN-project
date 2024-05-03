@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">LinkedN</string>
+    <string name="appName">Welcome to <b>LinkedN</b></string>
+    <string name="start">Start</string>
+    <string name="enterName">Enter name</string>
+    <string name="email">Email</string>
+    <string name="enterPassword">Enter password</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up"><u>Sign up</u></string>
+    <string name="logo">Logo</string>
+    <string name="sign_up_no_line">Sign Up</string>
+    <string name="enterEmail">Enter email address</string>
+    <string name="enterPasswordConfirm">Enter password again</string>
+    <string name="gender">Gender</string>
+    <string name="gender_select">Select Gender</string>
+    <string name="short_bio">Short bio</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="profile">Profile</string>
+    <string name="john_doe">John Doe</string>
+    <string name="update_details">Update Details</string>
+    <string name="camera_icon">Camera icon</string>
+    <string name="username">Username</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="skill">Skill Skill Skill Skill</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer not to say</item>
+    </string-array>
+
+</resources>
